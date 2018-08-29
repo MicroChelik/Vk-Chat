@@ -1,0 +1,52 @@
+.col{
+	background-color: #e9d9e5;
+	
+}
+.btn{
+	background-color:#de97b1;
+}
+.col-4{
+	background-color: #e9d9e5;
+	box-shadow: -18px 0 20px -20px #333;
+display: inline;
+}
+.col-8{
+	background-color: #e9d9e5;
+	box-shadow: 18px 0 20px -20px #333;
+}
+.chatField{
+	min-height: 100%;
+}
+.avatar{
+height:60px;
+}
+.added{
+display: inline;
+padding-left: 5px;
+padding-right: 5px;
+flex-grow: 0;
+}
+.row{
+margin-left: 0px; 
+margin-right: 0px;
+}
+.body{
+background-color: #E6E6FA;
+}
+.chat{
+max-height: 400px;
+overflow: auto;
+}
+.navbar{
+background-color:#de97b1;
+}
+#friends{
+	border-right: 1px solid pink;
+	overflow: auto;
+}
+.message{
+	padding: 7px;
+}
+.box{	
+	max-height: 500px;
+}
