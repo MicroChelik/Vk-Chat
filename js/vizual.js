@@ -44,7 +44,7 @@ function buttonCreate() {
         window.offsetVal = (id.currentTarget.id - 1) * 10;
         addFriends();
       }
-    }).appendTo('#parseFriendsButton');
+    }).appendTo('#pagination');
   }
 }
 
@@ -68,7 +68,7 @@ $.ajax({
           .append($("<div class='col added'>").append(result.response.items[window.schetchik].last_name))
           .append($("<div class='col added'>").append(result.response.items[window.schetchik].id)))
             .append($("<div class='row'>")
-            .append($("<div class='col added'>").append($("<img class='rounded-circle avatar'>").attr('src', result.response.items[window.schetchik].photo_200)))
+            .append($("<div class='col added'>").append($("<img class='rounded-circle avatar' alt='avatar'>").attr('src', result.response.items[window.schetchik].photo_200)))
             .append($("<div class='col added'>").append($("<button type=button class='btn btn-sm'>").text('Открыть чат').click(openChat))
                    )
                 ))
